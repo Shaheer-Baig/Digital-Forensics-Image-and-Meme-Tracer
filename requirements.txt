@@ -1,0 +1,13 @@
+customtkinter
+packaging
+requests
+beautifulsoup4
+imagehash
+Pillow
+pandas
+easyocr
+fake_useragent
+lxml
+selenium
+webdriver-manager
+google-search-results
