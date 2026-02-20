@@ -10,13 +10,22 @@ A tool to trace the origin of memes and images on Reddit and Pinterest using OCR
 
 ## Setup
 
+
 1.  **Install Dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
     *Note: This installs PyTorch and EasyOCR, which may take a few minutes.*
 
-2.  **Run the Application**:
+2. **Create a `.env` file in the root directory of the project and add the following:**
+```env
+SERPAPI_KEY=your_serpapi_key
+RAPIDAPI_KEY=your_rapidapi_key
+REDDIT_CLIENT_ID=your_reddit_client_id
+REDDIT_SECRET=your_reddit_secret
+```
+
+3.  **Run the Application**:
     ```bash
     python gui.py
     ```
@@ -31,3 +40,4 @@ A tool to trace the origin of memes and images on Reddit and Pinterest using OCR
 ## Troubleshooting
 - **No matches found?** Try an image with clearer text or a more distinct subject.
 - **Slow search?** The tool scrapes Google, which can be slow. Please be patient.
+
